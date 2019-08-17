@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: DruidBarSlim
+## Notes: Adds a mana bar for druids while shapeshifted in Bear and Cat Form.
+## SavedVariables: DruidBarSlim
+## Author: Thijs van den Berg
+## Version: 0.0.1
+
+DruidBarSlim.xml
