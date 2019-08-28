@@ -1,6 +1,6 @@
 local POWER_MANA = 0
 local FORM_BEAR = 1
-local FORM_CAT = 2
+local FORM_CAT = 3
 
 function DruidBarSlim_OnLoad()
     DruidBarSlim_Frame:RegisterEvent("UNIT_DISPLAYPOWER");
