@@ -4,12 +4,14 @@ local FORM_CAT = 3
 
 function DruidBarSlim_OnLoad()
     DruidBarSlim_Frame:RegisterEvent("UNIT_DISPLAYPOWER");
+	DruidBarSlim_Frame:RegisterEvent("UPDATE_SHAPESHIFT_FORM")
     ShowOrHide();
     DruidBarSlim_OnRefresh();
 end
 
 function DruidBarSlim_OnEvent(self, event, ...)
-    if event == "UNIT_DISPLAYPOWER" then
+    if event == "UNIT_DISPLAYPOWER" or
+	   event == "UPDATE_SHAPESHIFT_FORM" then
         ShowOrHide();
     end
 end

@@ -1,4 +1,4 @@
-## Interface: 11302
+## Interface: 11307
 ## Title: DruidBarSlim
 ## Notes: Adds a mana bar for druids while shapeshifted in Bear and Cat Form.
 ## SavedVariables: DruidBarSlim

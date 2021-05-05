@@ -4,7 +4,7 @@
 
 	<Frame name="DruidBarSlim_Frame" hidden="false" frameStrata="BACKGROUND" enableMouse="true" movable="true" parent="UIParent">
 		<Size>
-			<AbsDimension x="160" y="18"/>
+			<AbsDimension x="125" y="16"/>
 		</Size>
         <Scripts>
             <OnLoad>DruidBarSlim_OnLoad();</OnLoad>
@@ -36,7 +36,7 @@
 		<Frames>
 			<StatusBar name="$parent_Mana" movable="true" inherits="TextStatusBar">
 				<Size>
-					<AbsDimension x="150" y="12"/>
+					<AbsDimension x="115" y="12"/>
 				</Size>
 				<Anchors>
 					<Anchor point="CENTER" relativeTo="$Parent" relativePoint="CENTER">
